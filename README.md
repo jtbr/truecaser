@@ -19,7 +19,7 @@ All observed casings for `w_0` are tested and the casing with the highest score 
 The probabilities `P(...)` are computed based on a large training corpus.
 
 # Requirements
-The Code was written for Python 2.7 and requires NLTK 3.0.
+The Code was written for Python 2.7 and requires NLTK 3.0. The truecasing functionality now runs on Python 3.7
 
 From NLTK, it uses the functions to spilt sentences into tokens and the FreqDist(). These parts of the code can easily be replaced, so that the code can be used without NLTK install.
 
